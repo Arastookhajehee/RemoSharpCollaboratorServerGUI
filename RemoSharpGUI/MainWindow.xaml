@@ -24,7 +24,7 @@
         <Border BorderBrush="Black" BorderThickness="1" Background="Gray" HorizontalAlignment="Left" Height="95" Margin="124,292,0,0" VerticalAlignment="Top" Width="110" Grid.Column="2"/>
 
         <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="442" Margin="10,10,0,0" VerticalAlignment="Top" Width="452" Grid.ColumnSpan="3">
-            <Label x:Name="label" Content="Image and Command Servers" HorizontalAlignment="Center" Margin="0,0,0,406" Width="260" FontSize="18" Foreground="White" FontWeight="Bold"/>
+            <Label x:Name="label" Content="Collaborator Server Manager" HorizontalAlignment="Center" Margin="0,0,0,406" Width="260" FontSize="18" Foreground="White" FontWeight="Bold"/>
         </Border>
         <!--<Border BorderBrush="Black" BorderThickness="1" Background="LightGray" HorizontalAlignment="Left" Height="78" Margin="206,183,0,0" VerticalAlignment="Top" Width="30"/>-->
 

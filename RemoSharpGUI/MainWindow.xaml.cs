@@ -904,24 +904,24 @@ namespace RemoSharpGUI
 
         }
 
-        private void OnStartupServerStart(object sender, RoutedEventArgs e)
-        {
-            string address = "ws://127.0.0.1:18580";
+        //private void OnStartupServerStart(object sender, RoutedEventArgs e)
+        //{
+        //    string address = "ws://127.0.0.1:18580";
 
 
-            if (this.canvasBoundStartServer.Content.Equals("Start Server"))
-            {
-                canvasSrv_Stay_Alive = true;
-                this.canvasBoundStartServer.Content = "Stop Server";
-                Thread thread = new Thread(() => CanvasBoundsWS_Server(address));
-                thread.Start();
-            }
-            else
-            {
-                canvasSrv_Stay_Alive = false;
-                this.canvasBoundStartServer.Content = "Start Server";
-            }
-        }
+        //    if (this.canvasBoundStartServer.Content.Equals("Start Server"))
+        //    {
+        //        canvasSrv_Stay_Alive = true;
+        //        this.canvasBoundStartServer.Content = "Stop Server";
+        //        Thread thread = new Thread(() => CanvasBoundsWS_Server(address));
+        //        thread.Start();
+        //    }
+        //    else
+        //    {
+        //        canvasSrv_Stay_Alive = false;
+        //        this.canvasBoundStartServer.Content = "Start Server";
+        //    }
+        //}
 
         private void canvasBoundCopyAddress_Click(object sender, RoutedEventArgs e)
         {
